@@ -39,4 +39,17 @@ public class CalculadoraTests
         // Assert
         Assert.Equal(20, resultado);
     }
+
+    [Fact]
+    public void DeveVerificarSe4EhParERetornarVerdadeiro()
+    {
+        // Arrange
+        int numero = 4;
+
+        // Ac
+        bool resultado = _calc.EhPar(numero);
+
+        // Assert
+        Assert.True(resultado);
+    }
 }
