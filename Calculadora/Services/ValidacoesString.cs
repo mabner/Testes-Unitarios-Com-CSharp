@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace Calculadora.Services
 {
-    public class CalculadoraImp
+    public class ValidacoesString
     {
-        public int Somar(int num1, int num2)
+        public int ContarCaracteres(string texto)
         {
-            return num1 + num2;
+            int num = texto.Length;
+            return num;
         }
     }
 }
